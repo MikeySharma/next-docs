@@ -10,11 +10,12 @@ import {
 } from './definitions';
 import { formatCurrency } from './utils';
 import { unstable_noStore as noStore } from 'next/cache';
+
 export async function fetchRevenue() {
   // Add noStore() here to prevent the response from being cached.
   // This is equivalent to in fetch(..., {cache: 'no-store'}).
-  noStore();
   try {
+    noStore();
     // Artificially delay a response for demo purposes.
     // Don't do this in production :)
 
