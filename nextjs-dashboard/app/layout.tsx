@@ -4,10 +4,10 @@ import { Metadata } from 'next';
 
 export const metadata : Metadata ={
   title: {
-    template: '%s | JNK Food Delivery',
-    default: 'JNK Food Delivery'
+    template: '%s | Next.js Dashboard',
+    default: 'Next.js Dashboard'
   },
-  description: 'JNK Best And Fast Food Delivery App',
+  description: 'Next.js Dashboard',
   metadataBase : new URL('https://mikey-dashboard.vercel.app')
 }
 
